@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <meta name="description" content="Personal portfolio of a software developer: projects, skills, achievements, and contact.">
+    <title>My Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Favicons (optional placeholders) -->
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  </head>
+  <body class="bg-stars">
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary">
+        <a href="#home" class="brand" aria-label="Go to home">
+          <span class="brand-mark">{ }</span>
+          <span class="brand-text">N P S</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <div id="nav-menu" class="nav-menu">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#achievements">Achievements</a></li>
+            <li><a class="nav-link" href="#resume">Resume</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21.64 13A9 9 0 0 1 11 2.36 1 1 0 0 0 9.66 3.7 7 7 0 1 0 20.3 14.34 1 1 0 0 0 21.64 13z"></path>
+            </svg>
+            <span class="theme-label">Theme</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home" class="site-main">
+      <!-- Home / Hero -->
+      <section class="section hero container reveal from-left" aria-label="Introduction">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 class="hero-title">NAGIDI PHANI SUBRAHMANYAM</h1>
+          <p class="hero-subtitle">Software Developer • AI & Data Science</p>
+          <p class="hero-text">
+            Enthusiastic and goal‑oriented developer with strong interest in solving real‑world problems through technology. Skilled in Java and Python, quick to grasp new tools and frameworks, and recognized for reliability and adaptability. Committed to continuous learning and delivering results through dedication and innovation.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <a href="https://github.com/Phani20032004" aria-label="GitHub" class="social-link">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.6-4.04-1.6-.55-1.38-1.33-1.75-1.33-1.75-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.12-.3-.54-1.53.12-3.19 0 0 1.01-.32 3.3 1.23.96-.27 1.98-.41 3-.41s2.04.14 3 .41c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.89.12 3.19.77.84 1.24 1.91 1.24 3.23 0 4.63-2.8 5.66-5.48 5.96.43.37.82 1.1.82 2.22v3.29c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/phani-subrahmanyam-nagidi-955660302/" aria-label="LinkedIn" class="social-link">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4.98 3.5a2.5 2.5 0 1 0 0 4.99 2.5 2.5 0 0 0 0-4.99zM3 8.98h3.96V21H3zM9.54 8.98H13.3v1.64h.05c.52-.99 1.8-2.03 3.71-2.03 3.97 0 4.7 2.62 4.7 6.03V21H17.8v-4.88c0-1.16-.02-2.66-1.62-2.66-1.62 0-1.87 1.26-1.87 2.57V21H9.54z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar">
+            <img src="PROFILE PIC.png" alt="Portrait of Nagidi Phani Subrahmanyam" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section container reveal from-right" aria-label="About me">
+        <div class="section-header">
+          <h2>About</h2>
+          <p>Background, education, and core skills.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="card">
+            <h3>Bio</h3>
+            <p>
+              Enthusiastic and results‑driven software developer with strong analytical thinking and effective decision‑making under pressure. Reliable, trustworthy, and adaptable in fast‑paced environments; focused on continuous learning and professional growth.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Education</h3>
+            <ul class="list">
+              <li><strong>B.Tech, Artificial Intelligence and Data Science</strong> — C M S College of Engineering and Technology, Coimbatore (2022–2026) — 8.55 CGPA</li>
+              <li><strong>Intermediate (M.P.C.)</strong> — Narayana Junior College (2020–2022) — 85%</li>
+              <li><strong>SSC</strong> — Zilla Parishad High School Majeru (2019–2020) — 95%</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Skills</h3>
+            <ul class="tags">
+              <li>Java</li>
+              <li>Python</li>
+              <li>Microsoft Tools</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <h4>Areas of Interest</h4>
+            <ul class="tags">
+              <li>Artificial Intelligence</li>
+              <li>Data Science</li>
+              <li>Machine Learning</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section container reveal from-left" aria-label="Projects">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>Selected work and experiments.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="PROJECT PIC.png" alt="Text Speech Reader UI" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3>Text Speech Reader</h3>
+              <p>Web application that converts user‑input English sentences into spoken audio with multiple country‑specific accents (American, British, Australian, Indian, etc.) using TTS voice profiles. Demonstrates how language models and TTS APIs enhance communication, training, and education.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Achievements / Certificates -->
+      <section id="achievements" class="section container reveal from-right" aria-label="Achievements and Certificates">
+        <div class="section-header">
+          <h2>Achievements & Certificates</h2>
+          <p>Recognition and completed courses.</p>
+        </div>
+
+        <ul class="timeline">
+          <li>
+            <div class="timeline-card">
+              <h3>Internship — SPYPRO SECURITY SOLUTIONS</h3>
+              <p>Web Development • August 2024 • 28 Days</p>
+              <p>Built responsive and interactive websites using HTML, CSS, JavaScript, and basic PHP/MySQL; contributed to front‑end development and dynamic feature integration; collaborated using version control and standard workflows.</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-card">
+              <h3>Data Analytics using Power BI</h3>
+              <p>Infosys Foundation • August 2025</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-card">
+              <h3>UI & UX Design</h3>
+              <p>IBM Skills Build • September 2024</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-card">
+              <h3>Introduction to MongoDB</h3>
+              <p>MongoDB • April 2024</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-card">
+              <h3>Hands‑on Mobile & Laptop Service</h3>
+              <p>New Technology Mobile, Laptop Service & Training Institute • July 2023</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-card">
+              <h3>Accomplishments</h3>
+              <p>Ranked 1st in academics across six semesters. Served as Class Representative for 4 years, demonstrating leadership, communication, and organizational skills.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Resume -->
+      <section id="resume" class="section container reveal from-left" aria-label="Resume">
+        <div class="section-header">
+          <h2>Resume</h2>
+          <p>Download my detailed resume to learn more about my experience and qualifications.</p>
+        </div>
+
+        <div class="resume-content">
+          <div class="resume-card">
+            <div class="resume-preview">
+              <div class="resume-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                </svg>
+              </div>
+              <h3>NAGIDI PHANI SUBRAHMANYAM</h3>
+              <p>Software Developer • AI & Data Science</p>
+              <p class="resume-description">
+                Comprehensive resume including education, skills, projects, achievements, and professional experience.
+              </p>
+            </div>
+            <div class="resume-actions">
+              <a href="My Resume.pdf" class="btn primary" download="Nagidi_Phani_Subrahmanyam_Resume.pdf">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"/>
+                </svg>
+                Download Resume
+              </a>
+              <a href="My Resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
+                </svg>
+                View Online
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section container reveal from-left" aria-label="Contact">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Let’s build something great together.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            </div>
+            <div class="field full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button class="btn primary" type="submit">Send Message</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-aside">
+            <h3>Connect</h3>
+            <p>Location: Kotha Majeru, Krishna, Andhra Pradesh</p>
+            <p>Phone: <a href="tel:+918897591083">+91‑8897591083</a></p>
+            <p>Email: <a href="mailto:phanisubrahmanyamnagidi@gmail.com">phanisubrahmanyamnagidi@gmail.com</a></p>
+            <div class="socials">
+              <a href="https://github.com/Phani20032004" aria-label="GitHub" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.6-4.04-1.6-.55-1.38-1.33-1.75-1.33-1.75-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.12-.3-.54-1.53.12-3.19 0 0 1.01-.32 3.3 1.23.96-.27 1.98-.41 3-.41s2.04.14 3 .41c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.89.12 3.19.77.84 1.24 1.91 1.24 3.23 0 4.63-2.8 5.66-5.48 5.96.43.37.82 1.1.82 2.22v3.29c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/phani-subrahmanyam-nagidi-955660302/" aria-label="LinkedIn" class="social-link">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4.98 3.5a2.5 2.5 0 1 0 0 4.99 2.5 2.5 0 0 0 0-4.99zM3 8.98h3.96V21H3zM9.54 8.98H13.3v1.64h.05c.52-.99 1.8-2.03 3.71-2.03 3.97 0 4.7 2.62 4.7 6.03V21H17.8v-4.88c0-1.16-.02-2.66-1.62-2.66-1.62 0-1.87 1.26-1.87 2.57V21H9.54z"/>
+                </svg>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> NAGIDI PHANI SUBRAHMANYAM. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
+
